@@ -1,9 +1,13 @@
-<<<<<<< HEAD
+
 .center-div {
     margin: 0 auto;
     width: 50%; 
 }
-=======
+
+.justif-txt {
+    text-align: justify;
+}
+
 /*---STYLE LOGO---*/
 .logo {
     /*Style du logo du site*/
@@ -90,4 +94,4 @@ nav li a:hover {
 .dropdown:hover .dropdown_content {
     display: block;
 }
->>>>>>> 6da8fcc3f9192a01d26208bc139abef17d64a3bf
+
