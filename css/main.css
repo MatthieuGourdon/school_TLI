@@ -107,6 +107,6 @@ nav li a:hover {
     height: 100%;
     vertical-align: middle;
 }
-body {
+#bg-div {
     background-image: url("../media/bg.jpg");
 }
