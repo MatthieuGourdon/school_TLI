@@ -9,6 +9,15 @@ body {
     margin: 0;
 }
 
+.center-div {
+    margin: 0 auto;
+    width: 50%; 
+}
+
+.justif-txt {
+    text-align: justify;
+}
+
 /*---STYLE LOGO---*/
 .logo {
     /*Style du logo du site*/
@@ -99,6 +108,20 @@ nav li a:hover {
 .dropdown:hover .dropdown_content {
     display: block;
 }
-#li_connexion {
 
+/*---STYLE DE LA BANNIERE---*/
+#banner_div {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+#banner_div > img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+#bg-div {
+    background-image: url("../media/bg.jpg");
 }
