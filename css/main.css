@@ -1,9 +1,14 @@
-<<<<<<< HEAD
+/*---STYLE DIV---*/
 .center-div {
     margin: 0 auto;
     width: 50%; 
 }
-=======
+
+/*---STYLE BODY---*/
+body {
+    margin: 0;
+}
+
 /*---STYLE LOGO---*/
 .logo {
     /*Style du logo du site*/
@@ -24,6 +29,10 @@
 }
 
 /*---STYLE EN-TÊTE NAVIGATION---*/
+nav {
+    display: flex;
+}
+
 nav>ul {
     /*Barre de menus (tous les navs)*/
     list-style-type: none;
@@ -90,4 +99,6 @@ nav li a:hover {
 .dropdown:hover .dropdown_content {
     display: block;
 }
->>>>>>> 6da8fcc3f9192a01d26208bc139abef17d64a3bf
+#li_connexion {
+
+}
