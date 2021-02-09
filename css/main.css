@@ -1,0 +1,86 @@
+/*---STYLE LOGO---*/
+.logo {
+    /*Style du logo du site*/
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #e2d7cf;
+    /*#efe5ba*/
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.logo em,
+.logo strong {
+    font-style: normal;
+}
+
+/*---STYLE EN-TÊTE NAVIGATION---*/
+nav>ul {
+    /*Barre de menus (tous les navs)*/
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f2ef;
+    /*#f9ebcf*/
+}
+
+nav li {
+    /*float: left;*/
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    /*Changements lors du passage de la souris*/
+    color: #ffffff;
+    background-color: #e2d7cf;
+    /*#efe5ba*/
+}
+
+.active {
+    /*Classe définissant l'onglet actif sur lequel on se trouve*/
+    color: #ffffff;
+    background-color: #e2d7cf;
+    /*#efe5ba*/
+}
+
+/*Dropdown menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f5f2ef;
+    min-width: 120px;
+}
+
+.dropdown_button {
+    background-color: #f5f2ef;
+    color: #333333;
+    padding: 14px;
+    font-size: 12px;
+    border: none;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown_button {
+    color: #ffffff;
+    background-color: #e2d7cf;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
