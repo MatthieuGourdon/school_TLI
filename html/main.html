@@ -30,7 +30,19 @@
                 </div>
             </li><!--
             --><li><a href="apropos.html">A propos & contact</a></li><!--
-            --><li><a href="" id="li_connexion">Connexion</a></li>
+            --><li id="li_connexion">
+                <div class="tooltip">
+                    <!--<span class="tooltip-text">Veuillez autoriser tous les cookies pour le bon fonctionnement du site !</span>-->
+                    <div class="form_connexion">
+                        <button class="connexion_bouton">Connexion</button>
+                        <form method="GET">
+                            <input id="userID" type="text" title="identifiant" placeholder="Identifiant" />
+                            <input id="userPass" type="password" title="mot de passe" placeholder="Mot de passe" />
+                            <button type="submit" class="bouton_connexion">Connexion</button>
+                        </form>
+                    </div>
+                </div>
+            </li>
         </ul>
     </nav>
   </header>

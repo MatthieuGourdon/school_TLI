@@ -1,19 +1,19 @@
 /*---STYLE DIV---*/
-.center-div {
-    margin: 0 auto;
+/*.center-div {
+    margin: 1em auto;
     width: 50%; 
+}*/
+section>div {
+    border: solid;
+    padding: 1em;
+    margin: 1em auto;
+    width: 50%;
 }
 
 /*---STYLE BODY---*/
 body {
     margin: 0;
 }
-
-.center-div {
-    margin: 0 auto;
-    width: 50%; 
-}
-
 .justif-txt {
     text-align: justify;
 }
@@ -26,7 +26,7 @@ body {
     font-size: 40px;
     color: #ffffff;
     font-weight: 700;
-    background-color: #e2d7cf;
+    background-color: #6c1a1a/*#e2d7cf*/;
     /*#efe5ba*/
     text-align: center;
     font-variant: small-caps;
@@ -38,16 +38,13 @@ body {
 }
 
 /*---STYLE EN-TÊTE NAVIGATION---*/
-nav {
-    display: flex;
-}
 
 nav>ul {
     /*Barre de menus (tous les navs)*/
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #f5f2ef;
+    background-color: #9f6969/*#f5f2ef*/;
     /*#f9ebcf*/
 }
 
@@ -68,14 +65,14 @@ nav a {
 nav li a:hover {
     /*Changements lors du passage de la souris*/
     color: #ffffff;
-    background-color: #e2d7cf;
+    background-color: #6c1a1a/*#e2d7cf*/;
     /*#efe5ba*/
 }
 
 .active {
     /*Classe définissant l'onglet actif sur lequel on se trouve*/
     color: #ffffff;
-    background-color: #e2d7cf;
+    background-color: #6c1a1a/*#e2d7cf*/;
     /*#efe5ba*/
 }
 
@@ -87,12 +84,12 @@ nav li a:hover {
 .dropdown_content {
     display: none;
     position: absolute;
-    background-color: #f5f2ef;
+    background-color: #9f6969/*#f5f2ef*/;
     min-width: 120px;
 }
 
 .dropdown_button {
-    background-color: #f5f2ef;
+    background-color: #9f6969/*#f5f2ef*/;
     color: #333333;
     padding: 14px;
     font-size: 12px;
@@ -102,15 +99,55 @@ nav li a:hover {
 
 .dropdown:hover .dropdown_button {
     color: #ffffff;
-    background-color: #e2d7cf;
+    background-color: #6c1a1a/*#e2d7cf*/;
     cursor: pointer;
 }
 .dropdown:hover .dropdown_content {
     display: block;
 }
+#li_connexion {
+    float: right;
+}
+
+/*Menu authentification*/
+.form_connexion {
+    position: relative;
+    display: inline-block;
+}
+.form_connexion form {
+    display: none;
+    position: absolute;
+    background-color: #9f6969/*#f5f2ef*/;
+    min-width: 100%;
+}
+.connexion_bouton {
+    font-style: normal;
+    background-color: #9f6969/*#f5f2ef*/;
+    color: #333333;
+    padding: 14px;
+    font-size: 12px;
+    border: none;
+    font-size: 16px;
+}
+.form_connexion:hover .connexion_bouton {
+    color: #ffffff;
+    background-color: #6c1a1a/*#e2d7cf*/;
+    cursor: pointer;
+}
+.form_connexion:hover form {
+    display: block;
+    width: 70%;
+}
+#li_connexion {
+    float: right;
+}
+#li_connexion input {
+    width: 90%;
+}
 
 /*---STYLE DE LA BANNIERE---*/
-#banner_div {
+
+/*#banner_div {
     height: 100%;
     position: relative;
     margin: 0;
@@ -124,4 +161,4 @@ nav li a:hover {
 }
 #bg-div {
     background-image: url("../media/bg.jpg");
-}
+}*/
