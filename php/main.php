@@ -1,9 +1,16 @@
-<?php
-require_once('../../softwares/smarty-3.1.38/libs/Smarty.class.php');
-$smarty = new Smarty();
-$smarty->template_dir = '../php';
-
-$text = 'oui';
-$smarty->assign('text', $text);
-$smarty->display('head.tpl'); 
-?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notre première instruction : echo</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h2>Affichage de texte avec PHP</h2>
+        
+        <p>
+            Cette ligne a été écrite entièrement en HTML.<br />
+            <?php echo "Celle-ci a été écrite entièrement en PHP."; ?>
+        </p>
+        <?php require('header.php'); ?>
+    </body>
+</html>
