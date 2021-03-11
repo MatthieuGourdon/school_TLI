@@ -1,4 +1,8 @@
-<section>
+
+    <!--HEADER-->
+    {include file='header.tpl'}
+
+    <section>
         <div  class="center-div" id="bg-div">
             <h1><strong>Qu'est-ce que l'acupuncture ?</strong></h1>
             <p class="justif-txt">
@@ -30,3 +34,6 @@
             </p>
         </div>
     </section>
+
+    <!--FOOTER-->
+    {include file='footer.tpl'}
