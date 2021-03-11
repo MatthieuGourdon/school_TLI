@@ -17,3 +17,4 @@ switch ($_GET["page"]){
     default:
         echo "Non non non";
 }
+?>
