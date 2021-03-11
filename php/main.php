@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Notre première instruction : echo</title>
-        <meta charset="utf-8" />
-    </head>
-    <body>
-        <h2>Affichage de texte avec PHP</h2>
-        
-        <p>
-            Cette ligne a été écrite entièrement en HTML.<br />
-            <?php echo "Celle-ci a été écrite entièrement en PHP."; ?>
-        </p>
-        <?php require('header.php'); ?>
-    </body>
-</html>
+<?php
+require_once('/var/www/html/smarty/libs/Smarty.class.php');
+$smarty = new Smarty();
+$smarty->template_dir = '/var/www/html/school_TLI/php';
+$smarty->setCompileDir('/var/www/html/smartyCompile/');
+
+
+$text = 'oui';
+$smarty->assign('text', $text);
+$smarty->display('header.tpl');
