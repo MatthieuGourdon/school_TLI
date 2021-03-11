@@ -15,17 +15,17 @@
         <h1 class="logo">A.A.A</h1>
         <nav>
             <ul>
-                <li><a class="active" href="../html/main.html">Accueil</a></li><!--Permet d'enlever l'espace blanc causé par inline block
+                <li><a class="active" href="main.php?page=index">Accueil</a></li><!--Permet d'enlever l'espace blanc causé par inline block
                 --><li>
                     <div class="dropdown">
                         <button class="dropdown_button">Pathologies</button>
                         <div class="dropdown_content">
-                            <a href="../html/pathologypage.html">patho1</a>
-                            <a href="../html/pathologypage.html">patho2</a>
-                            <a href="../html/pathologypage.html">patho3</a>
-                            <a href="../html/pathologypage.html">patho4</a>
-                            <a href="../html/pathologypage.html">patho5</a>
-                            <a href="../html/pathologypage.html">patho6</a>
+                            <a href="main.php?page=pathology">patho1</a>
+                            <a href="main.php?page=pathology">patho2</a>
+                            <a href="main.php?page=pathology">patho3</a>
+                            <a href="main.php?page=pathology">patho4</a>
+                            <a href="main.php?page=pathology">patho5</a>
+                            <a href="main.php?page=pathology">patho6</a>
                         </div>
                     </div>
             </li><!--

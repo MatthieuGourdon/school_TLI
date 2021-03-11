@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-03-11 11:34:59
+/* Smarty version 3.1.38, created on 2021-03-11 11:59:23
   from '/var/www/html/school_TLI/smartyTemplate/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_6049f253339fd9_01401167',
+  'unifunc' => 'content_6049f80b79df55_96686629',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a373cfed0c2a3037f37a824be4347696901e681f' => 
     array (
       0 => '/var/www/html/school_TLI/smartyTemplate/header.tpl',
-      1 => 1615458714,
+      1 => 1615460353,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6049f253339fd9_01401167 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6049f80b79df55_96686629 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="fr">
 <head>
@@ -40,21 +40,21 @@ function content_6049f253339fd9_01401167 (Smarty_Internal_Template $_smarty_tpl)
         <h1 class="logo">A.A.A</h1>
         <nav>
             <ul>
-                <li><a class="active" href="../html/main.html">Accueil</a></li><!--Permet d'enlever l'espace blanc causé par inline block
+                <li><a class="active" href="main.php?page=index">Accueil</a></li><!--Permet d'enlever l'espace blanc causé par inline block
                 --><li>
                     <div class="dropdown">
                         <button class="dropdown_button">Pathologies</button>
                         <div class="dropdown_content">
-                            <a href="../html/pathologypage.html">patho1</a>
-                            <a href="../html/pathologypage.html">patho2</a>
-                            <a href="../html/pathologypage.html">patho3</a>
-                            <a href="../html/pathologypage.html">patho4</a>
-                            <a href="../html/pathologypage.html">patho5</a>
-                            <a href="../html/pathologypage.html">patho6</a>
+                            <a href="main.php?page=pathology">patho1</a>
+                            <a href="main.php?page=pathology">patho2</a>
+                            <a href="main.php?page=pathology">patho3</a>
+                            <a href="main.php?page=pathology">patho4</a>
+                            <a href="main.php?page=pathology">patho5</a>
+                            <a href="main.php?page=pathology">patho6</a>
                         </div>
                     </div>
             </li><!--
-            --><li><a href="apropos.html">A propos & contact</a></li><!--
+            --><li><a href="main.php?page=apropos">A propos & contact</a></li><!--
             --><li id="li_connexion">
                     <div class="form_connexion">
                         <button class="connexion_bouton">Connexion</button>
