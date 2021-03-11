@@ -29,7 +29,7 @@
                         </div>
                     </div>
             </li><!--
-            --><li><a href="apropos.html">A propos & contact</a></li><!--
+            --><li><a href="main.php?page=apropos">A propos & contact</a></li><!--
             --><li id="li_connexion">
                     <div class="form_connexion">
                         <button class="connexion_bouton">Connexion</button>
