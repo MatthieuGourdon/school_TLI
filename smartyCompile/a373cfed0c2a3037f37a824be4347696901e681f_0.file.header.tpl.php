@@ -1,3 +1,40 @@
+<?php
+/* Smarty version 3.1.38, created on 2021-03-11 11:34:59
+  from '/var/www/html/school_TLI/smartyTemplate/header.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.38',
+  'unifunc' => 'content_6049f253339fd9_01401167',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'a373cfed0c2a3037f37a824be4347696901e681f' => 
+    array (
+      0 => '/var/www/html/school_TLI/smartyTemplate/header.tpl',
+      1 => 1615458714,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_6049f253339fd9_01401167 (Smarty_Internal_Template $_smarty_tpl) {
+?><!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>A.A.A</title>
+
+  <link rel="stylesheet" href="../css/main.css">
+
+  <?php echo '<script'; ?>
+ src="../js/main.js"><?php echo '</script'; ?>
+>
+</head>
+<body>
+
 <header>
         <!--Entête de navigation-->
         <h1 class="logo">A.A.A</h1>
@@ -16,7 +53,6 @@
                             <a href="../html/pathologypage.html">patho6</a>
                         </div>
                     </div>
-                </div>
             </li><!--
             --><li><a href="apropos.html">A propos & contact</a></li><!--
             --><li id="li_connexion">
@@ -31,4 +67,5 @@
                 </li>
         </ul>
     </nav>
-  </header>
+  </header><?php }
+}
