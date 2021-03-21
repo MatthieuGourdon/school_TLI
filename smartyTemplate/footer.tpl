@@ -1,5 +1,5 @@
 <footer>
-    <p>I'm a footer bro !</p>
+    <p></p>
 </footer>
 </body>
 </html>

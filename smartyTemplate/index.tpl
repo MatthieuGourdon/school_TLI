@@ -33,15 +33,6 @@
                 patrimoine culturel immatériel de l'humanité le 16 novembre 2010.
             </p>
         </div>
-
-        <form action="" method="post" class="center-div" id="bg-div">
-            <div>
-                <label for="keyword">Rechercher par mot-clé: </label>
-                <input type="text" name="keyword" id="keyword" required>
-                <input type="submit" value="Rechercher">
-            </div>
-
-        </form>
     </section>
 
     <!--FOOTER-->

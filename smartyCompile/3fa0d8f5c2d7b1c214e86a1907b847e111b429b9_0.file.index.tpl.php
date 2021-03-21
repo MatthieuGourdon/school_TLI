@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-03-20 19:18:12
+/* Smarty version 3.1.38, created on 2021-03-21 16:46:51
   from '/var/www/html/school_TLI/smartyTemplate/index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_60563c6463a718_97974711',
+  'unifunc' => 'content_60576a6bb421f2_84631587',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3fa0d8f5c2d7b1c214e86a1907b847e111b429b9' => 
     array (
       0 => '/var/www/html/school_TLI/smartyTemplate/index.tpl',
-      1 => 1616264285,
+      1 => 1616341549,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_60563c6463a718_97974711 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60576a6bb421f2_84631587 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <!--HEADER-->
     <?php $_smarty_tpl->_subTemplateRender('file:header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
@@ -59,15 +59,6 @@ function content_60563c6463a718_97974711 (Smarty_Internal_Template $_smarty_tpl)
                 patrimoine culturel immatériel de l'humanité le 16 novembre 2010.
             </p>
         </div>
-
-        <form action="" method="post" class="center-div" id="bg-div">
-            <div>
-                <label for="keyword">Rechercher par mot-clé: </label>
-                <input type="text" name="keyword" id="keyword" required>
-                <input type="submit" value="Rechercher">
-            </div>
-
-        </form>
     </section>
 
     <!--FOOTER-->
