@@ -23,8 +23,6 @@ if (isset($_GET["page"])){  //on teste si la variable page est définie avant d'
 }
 else {$smarty->display('index.tpl');}
 
-<<<<<<< HEAD
-=======
 /* Connexion à une base MySQL avec l'invocation de pilote */
 $dsn = 'pgsql:dbname=acudb;host=localhost'; //127.0.0.1
 $user = 'postgres-tli';
@@ -63,7 +61,6 @@ foreach ($results as $pathosym) {
  print "</br>";
 }
 
->>>>>>> a52b32988ae811ea963978a43dba7b2280c62d94
 
 
 ?>
